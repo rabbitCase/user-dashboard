@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+}
+.dash-container{
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 20% 80%;
+    height: 100vh;
+}
+.master-grid-sidebar{
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: 2px solid red;
+    background-color: rgb(7, 152, 220);
+}
+.master-grid-top{
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 4px solid green;
+}
+.master-grid-main{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 70px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    border: 2px solid blue;
+}
+.nav-titles{
+    display: flex;
+    border: 2px solid greenyellow;
+    align-items: center;
+    justify-content: flex-start;
+    color: antiquewhite;
+    font-weight: 700;
+}
+.nav-icons{
+    border: 2px solid red;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    margin-left: 50px;
+}
+.project-grid{
+    display: grid;
+    border: 5px solid grey;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+.projects{
+    border: 2px solid violet;
+    margin: 15px;
+    border-radius: 8px;
+}
+.icon-bar{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 10px;
+    gap: 20px;
+    border: 2px solid orangered;
+}
+.greeting{
+    display: flex;
+    margin-top: 20px;
+}
+#project-container{
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border: 3px solid black;
+}
+#announcements{
+    grid-column-start: 2;
+    grid-column-end: 3 ;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: 3px solid green;
+}
+#trending{
+    grid-column-start: 2;
+    grid-column-end: 3 ;
+    grid-row-start: 3;
+    border: 3px solid red;
+}
+
+#title{
+    font-size: 20px;
+    margin: 35px;
+    text-align: center;
+    color: antiquewhite;
+}
+#communities{
+    margin-bottom: 85px;
+}
+#my-projects{
+    font-size: 30px;
+    margin: 15px;
+}
+#search-icon{
+    width: 30px;
+    height: 30px;
+    border: 2px solid grey;
+    margin-left: 20px;
+}
+#searchbar-icon{
+    width: 500px;
+    border: 2px solid grey;
+}
+#notif-icon{
+    width: 30px;
+    border: 2px solid grey;
+    margin-left:450px;
+}
+#dp-icon{
+    width: 30px;
+    border: 2px solid grey;
+}
+#bottom-dp{
+    width: 30px;
+    border: 2px solid grey;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#announcements-title{
+    margin:20px;
+    font-size: 20px;
+}
+#trending-title{
+    margin: 20px;
+    font-size: 20px;
+}
+#name{
+    font-size: 25px;
+}
