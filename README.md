@@ -1,7 +1,7 @@
 # User Dashboard
 <a href="https://rabbitcase.github.io/user-dashboard/">Live Preview</a>
 
-CSS Grid and Flexbox practice project
+A sample post-login dashboard created using CSS Grid and Flexbox.
 
 Credits: 
 <ul>
