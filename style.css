@@ -44,6 +44,7 @@ body{
     color: antiquewhite;
     font-weight: 700;
     transition: transform 0.2s ease;
+    will-change: transform;/*prevents shaky text on scale*/
 }
 .nav-titles:hover{
     transform: scale(1.1);
@@ -67,6 +68,7 @@ body{
 }
 .top-icons{
     transition: transform 0.3s ease;
+    will-change: transform;
 }
 .top-icons:hover{
     transform: scale(1.1);
@@ -94,6 +96,13 @@ body{
     border-radius: 25px;
     gap: 10px;
     margin-left: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    will-change: transform;
+}
+.user-actions:hover{
+    transform: scale(1.05);
+    background-color: rgb(183, 183, 23);
+    transform-origin: center;
 }
 /*projects classes*/
 .project-grid{
@@ -253,6 +262,7 @@ body{
 }
 #greeting-name{
     transition: transform 0.3s ease;
+    will-change: transform;
 }
 #greeting-name:hover{
     transform: scale(1.05);
