@@ -55,6 +55,8 @@ body{
     margin: 2px;
     margin-left: 25px;
     margin-right: 10px;
+    background-size: cover;
+    filter: invert(0.9);
 }
 /*top bar classes*/
 .icon-bar{
@@ -280,42 +282,6 @@ body{
 /*side bar*/
 #communities{
     margin-bottom: 85px;
-}
-#home-icon{
-    background-size: cover;
-    filter: invert(0.9);
-}
-#profile-icon{
-    background-size: cover;
-    filter: invert(0.9);
-}
-#messages-icon{
-    background-size: cover;
-    filter: invert(0.9);
-}
-#history-icon{
-    background-size: cover;
-    filter: invert(0.9);
-}
-#tasks-icon{
-    background-size: cover;
-    filter: invert(0.9);
-}
-#communities-icon{
-    background-size: cover;
-    filter: invert(0.9);
-}
-#settings-icon{
-    background-size: cover;
-    filter: invert(0.9);
-}
-#support-icon{
-    background-size: cover;
-    filter: invert(0.9);
-}
-#privacy-icon{
-    background-size: cover;
-    filter: invert(0.9);
 }
 #title{
     display: flex;
