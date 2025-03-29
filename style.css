@@ -17,7 +17,7 @@ body{
     grid-row-start: 1;
     grid-row-end: 3;
     font-family: 'Faustina', 'ariel';
-    background-color: rgb(7, 152, 220);
+    background-image: linear-gradient(rgb(47, 137, 197),rgb(39, 119, 172),rgb(10, 30, 54));
 }
 .master-grid-top{
     display: flex;
