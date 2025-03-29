@@ -154,7 +154,7 @@ body{
     font-weight: 600;
     width: 200px;
     height: 40px;
-    border-bottom: 2px solid rgb(111, 111, 111);
+    border-bottom: 1px solid rgb(118, 118, 118);
 }
 /*main projects, announcements and trending area*/
 #project-container{
