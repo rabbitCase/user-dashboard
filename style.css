@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap');
 body{
     margin: 0;
+    background-color: rgba(9, 119, 237, 0.237);
 }
 .dash-container{
     display: grid;
@@ -43,11 +44,13 @@ body{
     margin-bottom:10px;
     color: antiquewhite;
     font-weight: 700;
+    width: fit-content;
     transition: transform 0.2s ease;
     will-change: transform;/*prevents shaky text on scale*/
 }
 .nav-titles:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 .nav-icons{
     width: 30px;
@@ -105,6 +108,7 @@ body{
     transform: scale(1.05);
     background-color: rgb(183, 183, 23);
     transform-origin: center;
+    cursor: pointer;
 }
 /*projects classes*/
 .project-grid{
@@ -116,7 +120,7 @@ body{
     display: flex;
     flex-direction: column;
     border-left: 8px solid rgb(194, 124, 18);
-    background-color: #ffffff;
+    background-color: #eeeeee;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -148,7 +152,6 @@ body{
     align-items: center;
     gap:20px;
     padding-top: 5px;
-    height: fit-content;
 }
 .announcements{
     display: flex;
@@ -174,9 +177,6 @@ body{
     grid-column-start: 1;
     grid-row-start: 1;
     grid-row-end: 4;
-    border-right: 4px solid rgb(49, 48, 48);
-    border-top-right-radius: 12px ;
-    background-color: #eee;
 }
 #announcements{
     display: flex;
@@ -185,9 +185,14 @@ body{
     grid-column-end: 3 ;
     grid-row-start: 1;
     grid-row-end: 3;
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.388);
+    background-color: #eeeeee;
+    border-radius: 12px;
+    margin: 10px;
 }
 #announcements-title-container{
     display: flex;
+    justify-content: center;
 }
 #announcements-icon{
     width: 30px;
@@ -200,6 +205,10 @@ body{
     grid-column-start: 2;
     grid-column-end: 3 ;
     grid-row-start: 3;
+    background-color: #eeeeee;
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.388);
+    border-radius: 12px;
+    margin: 10px;
 }
 #trending-title{
     width: fit-content;
@@ -207,6 +216,7 @@ body{
 }
 #trending-title-container{
     display: flex;
+    justify-content: center;
 }
 #trending-icon{
     width: 30px;
@@ -310,6 +320,7 @@ body{
 }
 #title:hover{
     transform: translateX(5px);
+    cursor: pointer;
 }
 #dash-icon{
     width: 45px;
